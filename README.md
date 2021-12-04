@@ -7,5 +7,4 @@
 
 ## Tecnologias
 
-Bootstrap
 PHP
