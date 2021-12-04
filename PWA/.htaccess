@@ -1,0 +1,6 @@
+# intercept request for getvideo
+RewriteEngine On
+RewriteRule ^.*\.mp4$ getvideo.php
+RewriteRule ^getvideo$ getvideo.php
+RewriteRule ^baixarvideo$ getvideo.php
+RewriteRule ^baixar$ getvideo.php

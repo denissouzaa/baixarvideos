@@ -1,0 +1,13 @@
+ErrorDocument 404 https://baixar-videos.com/termos
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+RewriteCond %{HTTP_HOST} ^www.baixar-videos.com [NC]
+RewriteRule ^(.*)$ https://baixar-videos.com/$1 [L,R=301]
+
+
+
+
+
