@@ -8,5 +8,6 @@
 
 ## Tecnologias
 
-* Bootstrap
 * PHP
+* Bootstrap
+
